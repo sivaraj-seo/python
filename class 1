@@ -1,0 +1,158 @@
+#Write a Python program that prints "Hello, World!" to the screen.
+
+#Objective:
+#Write a Python program that prints "Hello, World!" to the screen.
+
+Background:
+This problem helps beginners understand how basic Python script works. To Understand the syntax and structure of a simple Python program.
+
+#Solution:
+
+#Use the print() function in Python.
+
+print("Hello world")
+
+#Write a Python program to perform subtraction between two numbers.
+
+#Objective:
+##Write a Python program to subtract one number from another and display the result.
+
+#Background:
+
+#In mathematics, subtraction is a basic arithmetic operation that represents the operation of removing objects from a collection. In programming, subtraction is performed using the - (minus) operator.
+
+#This problem helps beginners understand how to:
+
+#Declare and initialize variables
+#Perform arithmetic operations in Python
+#Display output using the print() function
+
+x=5
+y=10
+
+z = x-y
+print(z)
+
+
+#Write a Python program that demonstrates type() with different variables.
+
+#Objective: 
+#Write a Python program that demonstrates type() with different variables.
+
+#Background:
+
+#This program explains which type of variable is used in the program. This helps us to find whether the input type matches with the requirement or not.
+
+#Solution:
+#Finding variables type
+#Display output using the type() function
+
+x=5
+y=10
+
+z = x-y
+print(type(z))
+
+print(type("hello world"))
+
+#Result:
+<class 'int'>
+<class 'str'>
+
+
+#Write a Python program to divide two numbers and print the quotient.
+	
+#Objective:
+#Write a Python program to divide two numbers and print the quotient.
+
+#Background:
+#This program helps us to divide 2 numbers and print the quotient result. With the help of / operator we divide 2 numbers and print its result. 
+
+#Solution:
+
+x=50
+y=10
+z = (x/y)
+print("quotient: ", z)
+
+#Result:
+quotient:  5.0
+
+#Write a Python program that prints the sum of two numbers entered by the user.
+#Objective:
+#Write a Python program that prints the sum of two numbers entered by the user.
+
+#Background:
+#Sum operation helps us to add to numbers. In python we are using + operator to add two numbers. In this program we are adding 2 numbers with + operator and printing the result.
+
+a = int(input("Enter value of a: "))
+b = int(input("Enter value of b: "))
+
+c = a+b
+
+print("Total: ", c)
+
+#Result:
+Enter value of a: 15
+Enter value of b: 15
+Total:  30
+
+#Write a Python program that asks for your name and age and prints both.
+
+#Objective:
+#Write a Python program that asks for your name and age and prints both.
+
+#Background:
+#Input() is the function used in python to get input from users. In this program we are using the input() function with string and integer arrays. 
+
+a = str(input("Enter your name: "))
+b = int(input("Enter age: "))
+
+print("Your name is: ", a)
+print("Your age is: ", b)
+
+#Result:
+Enter your name: Siva
+Enter age: 25
+Your name is:  Siva
+Your age is:  25
+
+#Write a Python program to calculate the product of two numbers.
+
+#Objective:
+#Write a Python program to calculate the product of two numbers.
+
+
+#Background:
+#In this program we have to calculate two numbers product using * operator. In this program i’m using the input() function integer array to get user input in numbers and get the result using print() function.  
+
+
+a = int(input("Enter 1st value: "))
+b = int(input("Enter 2nd value: "))
+
+c = a * b
+
+print("Product value: ", c)
+
+#Result:
+Enter 1st value: 15
+Enter 2nd value: 62
+Product value:  930
+	
+#Write a Python program that asks for two numbers and prints their difference.
+#Objective:
+#Write a Python program that asks for two numbers and prints their difference.
+
+#Background:
+#In this program we have to print the difference between 2 numbers. I’m using - operator to find the difference. 
+
+a = eval(input("Enter 1st value: "))
+b = eval(input("Enter 2nd value: "))
+c = a - b
+print(f"Difference between a {a} and b {b} is: ", c)
+
+#Result:
+Enter 1st value: 30
+Enter 2nd value: 30
+Difference between a 30 and b 30 is:  0
+
