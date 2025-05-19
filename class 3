@@ -1,0 +1,176 @@
+#Write a Python program to check the data types of string, integer, and float.
+
+#Objective:
+#To write a python program that finds the data type of result.  
+
+#Background:
+#In this program I have created a user input code, through which I'm getting a result with the help of print() function.’
+#With the print function I'm using type() that helps us to find which type the result represents. 
+#In python type() is the option to find which data type the input represents.  
+
+#Solution:
+
+x = int(input("please enter a number :" ))
+y = str(input("please enter a value :" ))
+
+print(type(x))
+
+print(type(y))
+
+
+#Write a Python program that takes two inputs and adds them (integer and float).
+#Objective:
+#To create a program that adds integer type and float type numbers.	
+
+#Background:
+#In this program I'm adding two types of numbers (integer and float).
+#Integer is a whole number, float is with decimal point. 
+#I'm using the input() function to get the data from users, adding them with the arithmetic operator + (sum) and declaring the sum in  z.
+#With the help of print() function i’m printing the value. 
+
+
+#Solution:
+x = int(input("please enter number a : " ))
+y = float(input("please enter number b : " ))
+z = x + y
+
+print(f"Total of {x} and {y} is ", z)
+
+
+#Write a Python program to perform operations between an integer and a float.
+#Objective:
+#To create a program that performs arithmetic and comparison operations.	
+
+#Background:
+#In these following programs I'm using arithmetic and comparison operations.
+#In arithmetic operation I'm using the + (sum) operator to add two numbers. 
+#In the comparison operation I'm using the == (comparison ) operator to check two numbers. 
+#I'm declaring Z for arithmetic and Y for comparison to declare the result. 
+#With the help of print() function i’m printing the value. 
+
+#Arithmetic:
+
+x = float(input("please enter number a : " ))
+y = float(input("please enter number b : " ))
+
+z = x + y
+
+print(f"Total of {x} and {y} is ", z)
+
+#Comparison:
+
+x = float(input("please enter number a : " ))
+y = float(input("please enter number b : " ))
+
+if x == y:
+    print (f"X is equal to Y")
+else:
+    print(f"X is not equal to Y")
+
+
+#Write a Python program to demonstrate type casting (convert integer to float and vice versa).
+
+#Objective:
+#To create a program that has to convert one type of data type into another data type..	
+
+#Background:
+#In these following programs I'm getting input() from users in one data type.
+#And print the data type in another data type by converting it. 
+#By using a data type with print() function I'm converting the assigned value into another data type. 
+#I'm declaring a and b to store the new data type values. 
+#With the help of print() function i’m printing the value. 
+
+x = float(input("please enter number a : " ))
+y = int(input("please enter number b : " ))
+
+a = int(x)
+b = float(y)
+
+print(a)
+print(type(a))
+
+print(b)
+print(type(b))
+
+
+
+#Write a Python program to check if a number is True or False based on Boolean values.
+
+#Objective:
+#To create a program that checks if the number is true or false based on Boolean value..	
+
+#Background:
+#In these following programs I'm getting input() from users.
+#Boolean is a conditional logic, if a user's input value is zero it prints false otherwise true. 
+#With the help of print() function i’m printing the value. 
+
+	#Solution:
+
+	num = int(input("Enter a number: "))
+
+if bool(num):
+    print("The number is True in Boolean.")
+else:
+    print("The number is False in Boolean.")
+
+
+#Write a Python program to use type() to display the data type of an object.
+
+#Objective:
+#To create a program that checks users inputs data type..	
+
+#Background:
+#In these following programs I'm getting input() from users.
+#With the help of the type() function I'm getting the data type of that input.
+#I’m using the type() function with the print() function to print the value.
+
+#Solution:
+
+value = str(input("Enter a number: "))
+print(type(value))
+
+#Write a Python program to check if a given number is an integer, float, or string.
+
+#Objective:
+#To create a program that checks the user inputs data type.	
+
+#Background:
+#In these following programs I'm getting input() from users.
+#try: statement is used to test a block of code for errors.
+#except block catches and handles errors (exceptions) that happen inside the preceding try block. 
+#It tries to convert the variable x into an integer.
+#if the result is integer it prints the condition, if not it skips and checks the next condition. 
+#with the help of print() it prints the result. 
+
+#Solution:
+
+x = input("Enter a value: ")
+
+try:
+    val = int(x)
+    print("This is an integer")
+except ValueError:
+    try:
+        val = float(x)
+        print("This is a float")
+    except ValueError:
+        print("This is a string")
+
+#Write a Python program to perform string concatenation and display the result.
+#Objective:
+#To add two strings and print it.
+
+#Background:
+#String concatenation is the process of combining two or more strings into a single string
+#In these following programs I'm getting input() from users.
+#concatenating two strings, and assigning it to z.
+#with the help of print() i’m printing the result. 
+
+#solution:
+
+x = input("Enter the first string: ")
+y = input("Enter the second string: ")
+
+z = x + y
+
+print("concatenation result: ", z)
