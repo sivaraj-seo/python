@@ -1,0 +1,128 @@
+#Write a Python program to display a simple message in a single line.
+#Objective:
+#Write a Python program to display a simple message in a single line.
+
+#Background:
+#In this program I'm using print() to print the message. print() is the function that prints the string and the result.
+
+#solution:
+
+print("Hello, welcome to Python!")
+
+Result:
+Hello, welcome to Python!
+
+
+#Write a Python program using if-else statements to check if a number is positive or negative in a single line.
+
+#Objective:
+#To write a Python program using if-else statements to check if a number is positive or negative in a single line.
+
+#Background:
+#if-else() is a conditional logic. It helps to check whether the condition matches, if it satisfies it prints the assigned string. If not suits for the condition it prints the string that was assigned to print(). 
+
+#Solution:
+
+	value = int(input("please enter a number"))
+if value <0:
+    print ("you entered value is negative")
+else:
+    print("you entered value is positive")
+
+#Write a Python program to print a multi-line comment.
+
+#Objective:
+#To create  a program with multi-line comment
+
+#Background:
+#A multi-line comment allows you to write comments in several lines. In This program I'm creating a multi-line comment to check if the input of a user is meeting the condition or not. 
+
+
+#Solution:
+
+	value = int(input("please enter a number: " ))
+if value > 0:
+    print ("you entered value is positive")
+if value < 0:
+    print("you entered value is positive")
+else:
+    print("your value is zero")
+
+
+#Write a Python program to add two numbers and print the result in a single line.
+
+#Objective:
+#To write a python program to add two numbers and print the result in a single line
+
+#Background:
+#In arithmetic operations it has an operator + to add numbers. In this program I'm using the + operator to add two numbers. And I'm using the input() function to get the input from the user and adding those. 
+
+#Solution:
+
+	a = int(input("please enter number a : " ))
+b = int(input("please enter number b : " ))
+
+c = a+b
+
+print("Total: ", c)
+
+
+#Write a Python program that asks for the user's name using input() and prints it.
+#Objective:
+#To write a python program that asks for the user's name using input() and prints it.
+
+#Background:
+#In this program I'm using input() to get the user input and print the name. I’m using string to mention it is an alphabetical thing. 
+
+#Solution:
+
+name = str(input("please enter your name : " ))
+print("Your name is: ", name)
+
+
+#Write a Python program to perform subtraction of two numbers.
+#Objective:
+#To write a python program to perform subtraction of two numbers
+
+#Background:
+Subtraction is an arithmetic operation which helps us to subtract two numbers. In this operation I'm using / operator to get the result. 
+
+#Solution:
+
+x=5
+y=10
+z = x /y
+print(f"Subtraction of {x} and {y} is ", z)
+
+
+#Write a Python program to ask for two numbers and print their sum in a single line.
+#Objective:
+#To write a python program to ask for two numbers and print their sum in a single line.
+
+#Background:
+#In arithmetic operations it has an operator + to add numbers. In this program I'm using the + operator to add two numbers. And I'm using the input() function to get the input from the user and adding those. 
+
+#Solution:
+
+x = int(input("please enter number a : " ))
+y = int(input("please enter number b : " ))
+z = x + y
+
+print(f"Total of {x} and {y} is ", z)
+
+#Write a Python program to demonstrate input() for string and numeric values.
+#Objective:
+#To write a python program to demonstrate input() for string and numeric values.
+
+#Background:
+#In this program I'm asking users to give an input their values in string and integer format. And I'm printing the values. 
+
+#Solution:
+
+x = int(input("please enter a number :" ))
+y = str(input("please enter a value :" ))
+
+print(x)
+
+print(y)
+
