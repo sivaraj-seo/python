@@ -1,0 +1,187 @@
+#Write a Python program to concatenate two strings.
+#Objective:
+#To concatenate two strings.
+
+#Background:
+#In this program i’m concatenating two strings
+#in python concatenating is adding two separate string value as one
+#I’m getting two strings from the user through using the input() function and adding those in z.
+#Using the print() function I'm printing the concatenated result here. 
+
+This problem helps beginners understand how to:
+#how to understand concatenate two strings
+#how to assign two strings
+#how to print the concatenated string
+
+#solution:
+x = input("Enter the first string: ")
+y = input("Enter the second string: ")
+z = x + y
+
+print("concatenation result: ", z)
+
+
+#Write a Python program to check if a string is palindrome.
+#Objective:
+#To write a program that checks if the string is palindrome or not.
+
+#Background:
+#palindrome is an a word, phrase, or sequence that reads the same backwards as forwards
+#I’m using the input() function to get the string input from the user.
+#In this program I'm using  [::-1] expression slicing technique to reverse a string
+#And I'm comparing both the input and reversed input using comparison operator (==) in the if statement.
+#if the string are matching it prints The string is a palindrome, if not it prints the else statement The string is not a palindrome
+
+#This problem helps beginners understand how to:
+#How to use input() function
+#How to reverse the text for
+#how to use comparison operator for strings
+#How to use if statement and print() function 
+
+#solution:
+text = input("Enter your text: ")
+reversed_text = text [::-1]
+
+if text == reversed_text:
+    print("The string is a palindrome.")
+else:
+    print("The string is not a palindrome.")
+
+
+#Write a Python program that demonstrates the replace() method on a string.
+#Objective:
+#To write a program that replaces the values in a set function. 
+
+#Background:
+#I'm creating a list[] with both numbers and strings. list[] is a mutable one, which means we can modify the values it has.
+#By mentioning the position as x[2] and assigning a value for it as 99, I'm changing the value.
+
+#This problem helps beginners understand how to:
+#How to modify the list[] function
+#How to print the value
+
+#solution:
+x = [2,12,"python","welcome",5.2]
+x [2] = 99
+
+print (x)
+
+
+#Write a Python program to convert a string to lowercase.
+
+#Objective:
+#To covert the user input upper text into lower case
+
+#Background:
+#I’m using the input() function to get the text as capital. I’m mentioning it in prompt string
+#By using lower() function I'm converting it into lower case. 
+#I’m assigning the value into y and print the result using print() function.
+
+#This problem helps beginners understand how to:
+#This program helps to understand how to change the upper case text into lower case
+#How to print the result using print() function
+#How to assign the converted text into new variable
+
+
+text = input("Enter your text in Capital: ")
+y = text.lower()
+
+print (y)
+
+
+#Write a Python program that counts the number of occurrences of a substring in a string.
+
+#Objective:
+#To create a program that counts the number of substring 
+
+#Background:
+#I’m assigning list with some values
+#with the help of new variable x i’m using count() function
+#In count function i’m assigning a substring cherry
+#with the help of print() function in print the number of occurrences
+
+#This problem helps beginners understand:
+#how to use count() function
+#How to use list function
+#how to use print() to print the occurrences
+#How to assign new variable
+
+#solution:
+fruits = ['apple', 'banana', 'cherry']
+x = fruits.count("cherry")
+
+print(x)
+
+
+#Write a Python program that checks if a string contains a particular character.
+
+#Objective:
+#To create a program that checks if a string contains a particular character
+
+#Background:
+#I’m using input() function for both x and y
+#In y variable i’m giving a particular character to find in x
+#with the help of in operator with if-else statement i’m finding the y in x
+#With the help of the print() function I'm printing the necessary output.
+
+#This problem helps beginners understand how to:
+#how to use input() function
+#how to use a in operator in if-else statement
+#how to check a character in particular string
+
+#solution:
+x = input("Enter a string: ")
+y = input("Enter a character to check: ")
+
+if y in x:
+    print(f"The character '{y}' is present in the string.")
+else:
+    print(f"The character '{y}' is not present in the string.")
+
+
+
+#Write a Python program to extract a substring from a given string.
+
+#Objective:
+#To create a program that  extract a substring from a given string
+
+#Background:
+#I’m assigning a string in variable x
+#By using a new string y i’m mentioning characters at positions, through this it fetch that particular position characters
+#Using print() function i’m print the new variable y
+
+#This problem helps beginners understand how to:
+#how to use extract particular position substring
+#how to use a new variable to print the result.
+
+#solution:
+x= "welcome to ebay"
+y = word[5:10]
+
+print(y)
+
+
+#Write a Python program that compares two strings and checks if they are equal.
+
+#Objective:
+#To create a python program that  compares two strings and checks if they are equal or not.
+
+#Background:
+#I’m using input() function for both x and y
+#Using a comparison operator in the if-else statement to check if the string is equal or not.
+#with the help of print() function i’m printing the necessary string literal
+
+#This problem helps beginners understand:
+#how to use comparison operator
+#how to use a if-else statement
+#how to use input() function
+
+#solution:
+x = input("Enter the first string: ")
+y = input("Enter the second string: ")
+
+if x == y:
+    print("Both the strings are equal")
+else:
+    print("Both the strings are different")
+
