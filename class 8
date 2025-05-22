@@ -1,0 +1,175 @@
+#Write a Python program to create a dictionary and print all its values.
+
+#Objective:
+#To create a python program to create a dictionary and print all its values.
+
+#Background:
+#I’m creating dictionary with key and value
+#I’m printing the dictionary with print() function 
+
+#This problem helps beginners understand:
+#how dictionary works
+#how dictionaries key and value works
+#how to print the dictionary
+
+#Solution:
+
+x = {"token_no":"1","patient_name":"siva","patient_from":"cbe"}
+print(x)
+
+#Write a Python program to update a dictionary value using a specific key.
+
+#Objective:
+#To create a python program to update a dictionary value using a specific key.
+
+#Background:
+#I have created a dictionary with key and values
+#To add the new key and value by mentioning ["appot_time"] = "10.30" with variable x
+#I’m printing the updated dictionary with print() function 
+
+#This problem helps beginners understand:
+#how dictionary works
+#how to update dictionary 
+#how to print the updated dictionary 
+
+#Solution:
+x = {"token_no":"1","patient_name":"siva","patient_from":"cbe"}
+x["appot_time"] = "10.30"
+print(x)
+
+
+#Write a Python program to delete a dictionary item using the pop() method.
+
+#Objective:
+#To create a python program to delete a dictionary item using the pop() method.
+
+#Background:
+#I’m have created dictionary 
+#With the use of pop() function i’m removing a key “patient_name”
+##I’m printing the updated dictionary with print() function 
+
+#This problem helps beginners understand:
+#how to use dictionary
+#how to use pop() function
+#how to print the updated dictionary
+
+#Solution:
+x = {"token_no":"1","patient_name":"siva","patient_from":"cbe"}
+x.pop("patient_name")
+print(x)
+
+
+#Write a Python program to demonstrate range() function.
+
+#Objective:
+#To create a python program to demonstrate range() function.
+
+#Background:
+#I’m have created dictionary 
+#With assigning y i’m setting the range()
+#With assigning z i’m printing the value
+
+#This problem helps beginners understand:
+#How to use dictionary
+#how to set range() for dictionary
+#how to print the updated the dictionary
+
+#Solution: 
+
+x = {"token_no":"1","patient_name":"siva","patient_from":"cbe"}
+y = list(x.items())[:2]
+z= dict(y)
+print(z)
+
+	
+#Write a Python program to iterate through a dictionary and print both keys and values.
+
+#Objective:
+#To create a python program to iterate through a dictionary and print both keys and values.
+
+#Background:
+#i have created the dictionary
+#I’m using for statement to find the patient_name in the dictionary
+#I’m printing the updated dictionary
+
+#This problem helps beginners understand:
+#how the dictionary works
+#how to use for statement in dictionary
+#how to print the updated the dictionary
+
+#Solution:
+
+x = {"token_no":"1","patient_name":"siva","patient_from":"cbe"}
+for patient_name in x:
+    print(x)
+
+#Write a Python program that uses input() function to take user input and add it to a dictionary.
+
+#Objective:
+#To create a python program that uses input() function to take user input and add it to a dictionary.
+
+#Background:
+#I have created a dictionary
+#With the help of input() function i’m getting the key and value
+#In information[x] = y i’m updating key and value
+#With the help of print() function i’m printing the updated dictionary
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to update the dictionary
+#how to use print() function in dictionary
+
+
+information = {"token_no":"1","patient_name":"siva","patient_from":"cbe"}
+x = input("Enter patient_from key: ")
+y = input("Enter patient_from value: ")
+
+information[x] = y
+
+print("dictionary:", information)
+
+
+#Write a Python program that uses eval() to evaluate a mathematical expression entered by the user.
+
+#Objective:
+#To create a python program that uses eval() to evaluate a mathematical expression entered by the user
+
+#Background:
+#eval() function in Python evaluates a string as a Python expression
+#With the help of input() function i’m getting values
+#With the help of print() function i’m printing the updated dictionary
+
+#This problem helps beginners understand:
+#how to use eval() function
+#how to use + operator with eval
+#how to printing the eval function result
+
+#Solution:
+
+x = input("Enter 1st mathematical expression: ")
+y = input("Enter 1st mathematical expression: ")
+
+z = eval(x) + eval(y)
+
+print(z)
+
+#Write a Python program to clear all key-value pairs in a dictionary using clear().
+
+#Objective:
+#To create a python program to clear all key-value pairs in a dictionary using clear()
+
+#Background:
+#I’m having a key-value dictionary 
+#clear() is a method used to remove all elements from a list, set, or dictionary
+#I’m assigning y with the variable x and clear() function. 
+#I’m printing the updated value which is none.
+
+#This problem helps beginners understand:
+#how to create a dictionary
+#how to use clear() function 
+
+Solution:
+x = {"token_no":"1","patient_name":"siva","patient_from":"cbe"}
+
+y = x.clear()
+print(y)
