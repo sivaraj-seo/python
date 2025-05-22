@@ -1,0 +1,177 @@
+#Write a Python program to extract a substring from a string.
+
+#Objective:
+#To create a python program to extract a substring from a string.
+
+#Background:
+#I’m assigning a string in variable x
+#By using a new string y i’m mentioning characters at positions, through this it fetch that particular position characters
+#Using print() function i’m print the new variable y
+
+#This problem helps beginners understand how to:
+#how to use extract particular position substring
+#how to use a new variable to print the result.
+
+#Solution:
+
+x = "Hello, Welcome to python"
+y = x[7:15]
+
+print(y)
+
+
+#Write a Python program that removes leading and trailing spaces from a string.
+
+#Objective:
+#To create a python program to remove the spaces in a string.
+
+#Background:
+#I’m using input() function to get the user input in string
+#strip() function removes leading and trailing spaces to return a copy of the original string
+#I’m assigning y asa new variable to get the variable x with strip()
+#I’m printing variable y.
+
+#This problem helps beginners understand:
+#how to use strip() function
+#how to use a new variable to print the result.
+
+#Solution:
+
+x = input("Enter the string: ")
+print(x)
+y = x.strip()
+print(y)
+
+
+#Write a Python program to replace all occurrences of a word in a string.
+
+#Objective:
+#To create  a python program that replaces the existing string with a new string.
+
+#Background:
+#I’m assigning a string in x
+#remove() function built-in string function that returns a new string with specified occurrences of an old substring replaced by a new substring.
+#I’m assigning y as a new variable, and I'm mentioning replace() function with old and new substring.
+#I’m printing variables x and y to show the difference.
+
+#This problem helps beginners understand:
+#how to use replace() function
+#how to use a new variable to print the result.
+
+
+x = "This is the string"
+y = x.replace("the","is")
+
+print("Before change: ", x)
+print(y)
+
+
+
+#Write a Python program to count the occurrences of a specific letter in a string.
+
+#Objective:
+#To write a python program that with count() function to count the occurrences of a specific letter in a string
+
+#Background:
+#I’m assigning a string in x
+#count() method in Python is used to count the number of occurrences of a specified value within a string, list, or tuple.
+#I’m assigning y as a new variable, and I'm using the count() function with old and new substring.
+#I’m printing y to show the occurrences of particular letters.
+
+#This problem helps beginners understand:
+#how to use count() function
+#how to print occurrences of particular letters.
+
+
+x = "This is the string"
+y = x.count("i")
+
+print(y)
+
+
+
+#Write a Python program to check the length of a string using len().
+#Objective:
+#To write a python program that checks the length of a string using len().
+
+#Background:
+#I’m using input() function to get the user input in string
+#len() function returns the number of items in an object.
+#I’m assigning y as a new variable, and I'm using the len() function with old variable
+#I’m printing y to show the occurrences of length of a string.
+
+#This problem helps beginners understand:
+#how to use len() function
+#how to print occurrences of length of a string.
+
+#Solution:
+
+x = input("Enter a value: ")
+y = len(x)
+print(y)
+
+#Write a Python program to convert a string into a list of words.
+
+#Objective:
+#To write a python program that converts the string as a list of words.
+
+#Background:
+#I’m using input() function to get the user input in string
+# the split() method is a built-in string method that is used to split a string into a list of substrings based on a specified delimiter
+#I’m assigning y as a new variable.
+#I’m printing y to print the result as a list.
+
+#This problem helps beginners understand:
+#how to use split() function
+#how to print the converted list.
+
+#Solution:
+
+x = input("Enter a value: ")
+y = x.split()
+print(y)
+
+
+
+#Write a Python program that concatenates two strings using + operator.
+
+#Objective:
+#To write a python program that concatenates two strings using + operator
+
+#Background:
+#In this program i’m concatenating two strings
+#In python concatenating is adding two separate string value as one
+#I’m getting two strings from the user through using the input() function.
+#Through the print function I’m concatenating x and y with the help of sum (+) operator. 
+
+#This problem helps beginners understand:
+#how to understand concatenate two strings
+#how to assign two strings
+#how to print the concatenated string
+
+#Solution:
+x = input("Enter a string: ")
+y = input("Enter a string: ")
+
+print(f"this is concatenated string: {x}" + f" {y}")
+
+
+#Write a Python program to slice a string and display the first 3 characters.
+
+#Objective:
+#To write a python program that slice a string and display the first 3 characters
+
+#Background:
+#I’m using input() function to get the user input in string
+#By using [0:2] it is slicing from index 0 up to but not including index 2.
+#This extracts the first two elements of x
+#By using the print function, I’m printing the slicing result.
+
+#This problem helps beginners understand:
+#how to slice a string 
+#how to use the print function and print the result.
+
+#Solution:
+x = input("Enter a string: ")
+print(x[0:2])
+
