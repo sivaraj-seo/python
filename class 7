@@ -1,0 +1,184 @@
+#Write a Python program to create a tuple and print all its elements.
+
+#Objective:
+#To create a Python program to create a tuple and print all its elements.
+
+#Background:
+#I’m creating tuple with strings and integer
+
+#This problem helps beginners understand:
+#how to create tuple
+#how to print the tuple 
+
+#Solution:
+
+x = (25,2.3,61,"science","Maths")
+print(x)
+
+#Write a Python program that demonstrates set operations (union, intersection, and difference).
+
+#Objective:
+#To create a Python program that performs union, intersection, and difference
+
+#Background:
+#I have created two set
+#With the help of sets i have performing the operations like union, intersection, and difference
+#With assigning new variables set, set1 and set2 i’m printing the result.
+
+#This problem helps beginners understand:
+#how to create two sets
+#how union, intersection, and difference are working
+#how to create new variables
+#how print() function works
+
+	
+x = {25,2.3,61,"science","maths"}
+y = {1,2,3,61,"maths"}
+
+set = x.union(y)
+set1 = x.intersection(y)
+set2 = x.difference(y)
+
+print(set)
+print(set1)
+print(set2)
+
+
+
+#Write a Python program to create a set and check if an element exists in it.
+
+#Objective:
+#To create a python program that create a set and check if an element exists in it
+
+#Background:
+#I’m using input() function to get the values for set and to check
+#using in operator in if statement i’m checking the value is present in the set or not.
+
+#This problem helps beginners understand:
+#how to create a set
+#how to check the set elements presents in the set
+
+#Solution:
+
+x = input("Enter values for set: ")
+y = input("Enter values for check: ")
+print(x)
+
+if y in x:
+    print("Yes, It has the value")
+else:
+    print("It hasn't")
+
+
+#Write a Python program that creates a set from a list and prints it.
+
+#Objective:
+#To create a python program that creates a set from a list and prints it
+
+#Background:
+#I’m have created a list
+#By assigning new variable y i’m converting it as set
+#Then i’m printing the set with the help of print() function
+
+#This problem helps beginners understand:
+#how to create list
+#how to convert the list as set
+#how to print the set
+
+#Solution:
+
+x = [1,2,5,6,74,"python",6.5,"welcome"]
+
+y = set(x)
+
+print(type(x))
+print(type(y))
+print(x)
+print(y)
+
+
+#Write a Python program to demonstrate adding and removing elements from a set.
+#Objective:
+#To create a python program to demonstrate adding and removing elements from a set.
+
+#Background:
+#in this program i have created set
+#using add operation i’m adding “hello” string
+#using remove operation i’m removing integer “2”
+#getting the result with print() function
+
+#This problem helps beginners understand:
+#how add and remove operations works
+#how to create set
+#how to print the added and removed set
+
+
+x = {1,2,5,6,74,"python",6.5,"welcome"}
+x.add("hello")
+print(x)
+
+x.remove(2)
+print(x)
+
+#Write a Python program to find the length of a tuple.
+#Objective:
+#To create a python program to find the length of a tuple
+
+#Background:
+#I’m creating a tuple
+#By assigning new variable i’m getting the length of tuple
+
+#This problem helps beginners understand:
+#how to tuple works
+#how to measure tuple length
+#how to assign new variable, how to print the new variable
+
+x = [1,2,5,6,74,"python",6.5,"welcome"]
+y = len(x)
+print(y)
+
+	
+#Write a Python program to perform set difference on two sets.
+
+#Objective:
+#To create a python program to perform set difference on two sets.
+
+#Background:
+#i’m creating two sets
+#using the difference() operation i’m getting the differences of x and y
+
+#This problem helps beginners understand:
+#how to create two set
+#how to differentiate two sets and print
+
+Solution:
+x = {1,2,5,6,74,"python",6.5,"welcome"}
+y = {1,2,5.5,6,"python",65,"welcome"}
+
+diff = x.difference(y)
+
+print(diff )
+
+
+
+#Write a Python program to iterate over a tuple and print each element.
+#Objective:
+#To create a python program to iterate over a tuple and print each element.
+
+#Background:
+#i’m creating a tuple with integer and strings
+#with the help of for operation i’m assigning y as x
+#with the use of print() function i’m getting the result
+
+#This problem helps beginners understand:
+#how to use tuple
+#how to use for operation
+#how to use print operation
+
+#Solution:
+
+x = [1,2,5,6,74,"python",6.5,"welcome"]
+for y in x:
+    print(y)
+
+
