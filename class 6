@@ -1,0 +1,195 @@
+#Write a Python program to convert a string into a float and then multiply it by 10.
+
+#Objective:
+#To create a python program that convert a string into a float and then multiply it by 10
+
+#Background:
+#I’m using input() function to get the user input in string
+#By using a new string y i’m mentioning it as float that means i’m converting it as float.
+#Using print() function i’m print the new variable y
+#I’m assigning new variable z to multiply y with 10
+#Using print() function i’m printing the result, new variable z
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use new variables, and convert a variable into a new function.
+#how to use operator * (multiply) operator.
+
+
+x = str(input("Enter a string: "))
+y = float(x)
+print(y)
+
+z = y*10
+print(z)
+
+
+#Write a Python program to check if a variable is True or False based on its value.
+
+#Objective:
+#To create a python program to check if a variable is True or False based on its value.
+
+#Background:
+#I’m using input() function to get the user input in integer
+#By comparing two integers it gives a result in boolean.
+#A boolean in Python represents one of two values: True or False
+#Using if statement it print the boolean value
+#I mentioned boolean value in print() function, it helps us to get the result
+
+#This problem helps beginners understand:
+#How boolean function works
+#how to use if statement
+#how to boolean prints its value
+
+x = input("Enter a number: ")
+y = input("Enter a number: ")
+
+if x < y:
+    print(bool(0))
+else:
+    print(bool(1))
+
+
+#Write a Python program to create a list of strings and access the first item.
+
+#Objective:
+#To create a Python program that create a list of strings and access the first item
+
+#Background:
+#I have create a list of strings
+#I have using list indexing to print the first string in the list
+
+#This problem helps beginners understand:
+#how to create a string
+#how to use list indexing
+#how to print the list index value
+
+
+subjects = ["science", "tamil","english","Maths"]
+print(subjects[0])
+
+
+#Write a Python program to remove the last element from a list.
+#Objective:
+#To create a Python program that remove the last element from a list
+
+#Background:
+#I have create a list of strings
+#I have been using the pop() function to print the last string in the list.
+#pop() is a built-in method in Python used to remove and return an element from a list or dictionary.
+#I have been using the print() function to get the result.
+
+#This problem helps beginners understand:
+#how to create a list of string
+#how to use pop()
+#how to print the rest of the list strings
+
+
+subjects = ["science", "tamil","english","Maths"]
+removed = subjects.pop()
+
+print(subjects)
+
+	
+#Write a Python program to add two lists and print the result.
+#Objective:
+#To create a Python program to add two lists and print the result
+
+#Background:
+#I have two create a list of strings
+#I’m using + operator to add to two lists
+#I have assigned new variable “added” to merge the lists
+#pop() is a built-in method in Python used to remove and return an element from a list or dictionary.
+#I have been using the print() function to get the result.
+
+#This problem helps beginners understand:
+#how to assign two lists
+#how to assign new variable when adding two lists
+#how + operator works
+
+#Solution:
+
+subjects = ["science", "tamil","english","Maths"]
+
+subjects_2 = ["PT", "Social science"]
+
+added = subjects + subjects_2
+
+print(added)
+
+
+#Write a Python program to check if a list contains a specific element.
+
+#Objective:
+#To create a Python program to check if a list contains a specific element
+
+#Background:
+#I have created list
+#index() method returns the position, with the help of index i’m finding whether the element is in or not.
+#When i’m using “tamil” in the index it tries to find it.
+#I have been using the print() function to get the result.
+
+#This problem helps beginners understand:
+#how to use index
+#how to list the strings
+
+#Solution:
+
+x = ["science", "tamil","english","Maths"]
+position = x.index("tamil")
+
+print(position)
+
+
+#Write a Python program that converts an integer into a string.
+
+#Objective:
+#To create a Python program that converts an integer into a string
+
+#Background:
+#I’m using input() function to get the integer value
+#I’m assigning new variable x to convert it as string
+#I am using the print() function to get the result.
+
+#This problem helps beginners understand:
+#how to convert the integer as string
+#how to print the value
+#how to use input() function
+
+#Solution:
+
+x = int(input("Enter a value: "))
+
+y = str(x)
+print(y)
+
+#Write a Python program to demonstrate type() for a list and Boolean values.
+
+#Objective:
+#To create a Python program to demonstrate type() for a list and Boolean values.
+
+#Background:
+#I’m using input() function to get the user input in integer
+#A list in Python collection of items 
+#A boolean in Python represents one of two values: True or False
+#Using type() function i’m printing the result
+
+#This problem helps beginners understand:
+#How to use type() function
+#how to print the type() with print()
+
+
+#Boolean:
+
+x = input("Enter a number: ")
+y = input("Enter a number: ")
+
+if x < y:
+    print(type(bool(0)))
+else:
+    print(type(bool(1)))
+
+#List:
+
+x = ["science", "tamil","english","Maths"]
+print(type(x))
