@@ -1,0 +1,177 @@
+#Write a Python program to print your name using print().
+
+#Objective:
+#To create a python program to print your name using print() function
+
+#Background:
+#I have created a string
+#using print() function, i’m printing that result
+
+#This problem helps beginners understand:
+#how print() function works
+
+#Solution:
+name = "sivaraj"
+print(name)
+
+#Write a Python program to take two inputs using input() and print their sum.
+
+#Objective:
+#To create a python program to take two inputs using input() and print their sum
+
+#Background:
+#With the help of input() function i’m getting 2 values
+#using + operator i’m summing the two values
+#I’m assigning sum into variable z
+#Using the print() function, I'm getting the result in z.
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use + operator
+#how to print the summing result
+
+#Solution:
+x = int(input("Enter 1st number: "))
+y = int(input("Enter 2nd number: "))
+z = (x+y)
+
+print(z)
+
+
+#Write a Python program that takes an expression as input and evaluates it using eval().
+#Objective:
+#To create a python program that takes an expression as input and evaluates it using eval()
+
+#Background:
+#eval() function in Python evaluates a string as a Python expression
+#With the help of input() function in eval format i’m getting 2 values
+#using * operator i’m multiplying the two values
+#I’m assigning new variable z to get the multiplied value
+#Using the print() function, I'm getting the result in z.
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use * operator
+#how to print the multiplied result
+
+#Solution:
+x = eval(input("Enter 1st number: "))
+y = eval(input("Enter 2nd number: "))
+z = (x*y)
+
+print(z)
+
+
+#Write a Python program that prints a variable using format() method.
+
+#Objective:
+#To create a python program that prints a variable using format() method.
+
+#Background:
+#format() method in Python is used for string formatting
+#eval() function in Python evaluates a string as a Python expression
+#With the help of input() function in eval format i’m getting 2 values
+#With the help of print() function, I'm using the format function to format the result.
+
+#This problem helps beginners understand:
+#how to get the result in input()
+#how to use format() function 
+#how to use * (multiply) operator
+#how to use format() function with print() function
+
+#Solution:
+
+x = eval(input("Enter 1st number: "))
+y = eval(input("Enter 2nd number: "))
+z = (x*y)
+
+print(f"Total is: {z}")
+
+
+#Write a Python program that concatenates two strings using + operator and prints the result.
+
+#Objective:
+#To create a python program that concatenates two strings using + operator and prints the result.
+
+#Background:
+#strings are used for representing textual data
+#With the help of input() function in string format i’m getting 2 values
+#using + operator i’m adding the two strings
+#I’m assigning new variable z to get that added string
+#Using the print() function, I'm getting the result in z.
+
+#This problem helps beginners understand:
+#how to use input() function with string
+#how to use + operator to add strings
+#how to print the result
+
+#Solution:
+x = str(input("Enter 1st word: "))
+y = str(input("Enter 2nd word: "))
+z = x + y
+print( z )
+	
+
+#Write a Python program that repeats a string multiple times using * operator.
+
+#Objective:
+#To create a python program that repeats a string multiple times using * operator.
+
+#Background:
+#With the help of input() function in string format
+#With the help of i’m getting the number how many time it has to multiply
+#I’m assigning z to perform multiplication
+#I’m using print() function to get the result
+
+#This problem helps beginners understand:
+#how to use inpt()
+#how to get both integer and string
+#how to use * operator
+#how to use print() function 
+
+#Solution:
+
+x = input("Enter a word: ")
+y = int(input("Enter number: "))
+z = x * y
+print( z )
+
+#Write a Python program that prints a list of items using the sep argument in print().
+
+#Objective:
+#To create a python program that prints a list of items using the sep argument in print().
+
+#Background:
+#sep argument used to specify the separator between the strings
+#I have created a set with strings and integer
+#With the help of print function, In print function i’m using separate argument to create a “|” between values.
+
+#This problem helps beginners understand:
+#how to use separate argument in values
+#how to use separate argument in print function
+
+#Solution:
+
+x = (1,2,5,6,74,"python",6.5,"welcome")
+print(*x, sep="|" )
+	
+#Write a Python program that asks for user input for a name and age, then prints it using split().
+
+#Objective:
+#To create a python program that asks for user input for a name and age, then prints it using split().
+
+#Background:
+#I’m using input() function to get the value with space
+#split() function to split or separate the strings into substrings
+#In print function i’m using split function to split the users value
+
+#This problem helps beginners understand:
+#how to use split() 
+#how to use input() function
+#how to use split() function in print() function
+#how to assign space in split()
+
+#Solution:
+	
+x = input("Enter your name and age (Pls keep the between name and age) : ")
+print(x.split(" "))
