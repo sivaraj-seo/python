@@ -1,0 +1,168 @@
+#Write a Python program to write data to a file using write().
+
+#Objective:
+#To create a python program to write data to a file using write().
+
+#Background:
+#I’m using with open statement to open a mentioned file
+#And i’m writing a new statement in that file
+
+#This problem helps beginners understand:
+#how to use with open
+#how to write a new lines in that file
+
+#Solution:
+
+	with open('D:\\pythonExercisefile.txt', 'w') as file:
+    file.writelines("Happy sunday")
+
+#Write a Python program to open a file in append mode ('a') and add some text to it.
+
+#Objective:
+#To create a Python program to open a file in append mode ('a') and add some text to it.
+
+#Background:
+#append() method in Python adds a single element to the end of a list.
+#I’m using with open statement to open a mentioned file
+#And i’m writing a new statement in that file using writelines
+
+#This problem helps beginners understand:
+#how to use with writelines
+#how to write a new lines in that file
+#how to use append() function
+
+#Solution:
+
+with open('D:\\pythonExercisefile.txt', 'a') as file:
+   	  file.writelines("Happy weekend")
+
+#Write a Python program that opens a file using the with keyword and writes to it.
+
+#Objective:
+#To create a python program that opens a file using the with keyword and writes to it.
+
+#Background:
+#I’m using with open statement to open a mentioned file
+#And i’m writing a new statement in that file using writelines
+
+#This problem helps beginners understand:
+#how to use with writelines
+#how to write a new lines in that file
+#how to use append() function
+
+with open('D:\\pythonExercisefile.txt', 'w') as file:
+    file.writelines("This is an new world")
+
+#Write a Python program that writes data to a file and then reads the content.
+
+#Objective:
+#To create a python program that writes data to a file and then reads the content.
+
+#Background:
+#I’m using w+ in the statement to allow the file to read and write
+#With the help of the read() function I'm reading the files from the hover and I'm assigning it in variable y.
+#I’m printing the result with print() function
+
+#This problem helps beginners understand:
+#how to use writelines (w+)
+#how to use read()
+#how to use print() function
+
+#Solution:
+
+	with open('D:\\pythonExercisefile.txt', 'w+') as file:
+    file.writelines("\n This is next line")
+    file.seek(0)
+    y = file.read()
+    print(y)
+
+
+#Write a Python program to add a new line to an existing file.
+
+#Objective:
+#To create a python program to add a new line to an existing file.
+
+#Background:
+#append() method in Python adds a single element to the end of a list.
+#I’m using with open statement to open a mentioned file
+#And i’m writing a new statement in that file using writelines
+
+#This problem helps beginners understand:
+#how to use with writelines
+#how to write a new lines in that file
+#how to use append() function
+
+#Solution:
+
+	with open('D:\\pythonExercisefile.txt', 'a') as file:
+    file.writelines("\n This append next line")
+
+
+#Write a Python program to overwrite an existing file with new content using write().
+
+#Objective:
+#To create a python program to overwrite an existing file with new content using write().
+
+#Background:
+#I’m using with open statement to open a mentioned file
+#I’m using w in the statement to overwrite the existing file
+
+#This problem helps beginners understand:
+#how to use with open
+#how to overwrite lines in that file (w)
+
+#Solution:
+
+	with open('D:\\pythonExercisefile.txt', 'w') as file:
+  	    file.writelines("overwrite an existing file")
+
+
+#Write a Python program to append multiple lines to a file using writelines().
+
+#Objective:
+#To create a python program to append multiple lines to a file using writelines().
+
+#Background:
+#append() helps add multiple lines in the existing file.
+#I’m using with open statement to open a mentioned file
+#And i’m writing a new statement in that file using writelines
+#I’m using \n to mention it as newlines
+
+#This problem helps beginners understand:
+#how to use writelines function
+#how to write a multiple lines in that file
+#how to use append() function
+
+#Solution:
+
+	with open('D:\\pythonExercisefile.txt', 'a') as file:
+    file.writelines("This code opens example.txt in append mode ('a') \n"
+                    " and adds a new line at the \n "
+                    "end of the file without \n"
+                    " changing the existing content")
+
+
+#Write a Python program to open a file, write some content, and then read it back.
+
+#Objective:
+#To create a python program to open a file, write some content, and then read it back.
+
+#Background:
+#I’m using with open statement with w+ to mention it as writelines
+#And i’m writing a new lines in that file
+#I'm creating a new variable z. In that new variable I'm reading the file.
+#using print() function I'm getting the result.
+
+#This problem helps beginners understand:
+#how to use with with open
+#how to use read() 
+#how to write a new lines in that file
+#how to create new variable
+#how to assign new variable to get the result
+
+#Solution:
+with open('D:\\pythonExercisefile.txt', 'w+') as file:
+    file.writelines("These are new lines")
+    file.seek(0)
+    y = file.read()
+    print(y)
