@@ -1,0 +1,177 @@
+#Write a Python program to open a file and write a string to it.
+
+#Objective:
+#To create a python program to open a file and write a string to it.
+
+#Background:
+#I’m using with open statement to open a mentioned file
+#And i’m writing a new statement in that file
+
+#This problem helps beginners understand:
+#how to use with open
+#how to write a new lines in that file
+
+#Solution:
+
+with open('D:\\pythonExercisefile.txt', 'w') as file:
+  file.write("This is new file")
+
+#Write a Python program to read the content of a file and print it on the screen.
+
+#Objective:
+#To create a python program to read the content of a file and print it on the screen.
+
+#Background:
+#I’m using with open statement to open a mentioned file
+#I’m using writelines to write new lines in the file
+#i’m using read() function to read the statements in the file, I’m assigning the result in variable z
+#I’m printing the variable use print() function
+
+#This problem helps beginners understand:
+#how to use with writelines
+#how to write a new lines in that file
+#how to use read() function
+#how to print the read() function result
+
+#Solution:
+	with open('D:\\pythonExercisefile.txt', 'r+') as file:
+    file.writelines("This is \n new file")
+    file.seek(0)
+    y = file.read()
+    print(y)
+
+#Write a Python program to append new text to an existing file.
+#Objective:
+#To create a python program to append new text to an existing file.
+
+#Background:
+#append() method in Python adds a single element to the end of a list.
+#I’m using with open statement to open a mentioned file
+#And i’m writing a new statement in that file using writelines
+
+#This problem helps beginners understand:
+#how to use with writelines
+#how to write a new lines in that file
+#how to use append() function
+
+#Solution:
+
+	with open('D:\\pythonExercisefile.txt', 'a') as file:
+    	file.writelines("new line added through append")
+
+#Write a Python program that checks if a file exists before opening it.
+
+#Objective:
+#To create a python program that checks if a file exists before opening it.
+
+#Background:
+#I’m using check function to check the word in the mentioned file
+#with open option, i’m opening the file add read the file
+#using if statement i’m checking the statement in the file
+
+#This problem helps beginners understand:
+#how to assign file and keyword 
+#how to open a file
+#how to check the keyword in the file
+#how to use if-else statement to print the result
+
+#Solution:
+	file = 'D:\\pythonfile.txt'
+check = 'Hello'
+
+with open(file, 'r') as file:
+    content = file.read()
+if check in content:
+    print("Yes, it's there")
+else:
+    print("No")
+
+#Write a Python program to use seek() to move to a specific position in a file.
+
+#Objective:
+#To create a python program to use seek() to move to a specific position in a file.
+
+#Background:
+#seek() method in Python is used to change the position of the file handle to a specific point within a file.
+#with open option, i’m opening the file r+ to read the file
+#using seek() method i’m assigning a position to set the hover 
+#With the help of the read() function I'm reading the files from the hover and I'm assigning it in variable y.
+#I’m printing the result with print() function
+
+
+#This problem helps beginners understand:
+#how to open the file
+#how to use writelines
+#how to use seek()
+#how to use print() function
+
+#Solution:
+	with open('D:\\pythonExercisefile.txt', 'r+') as file:
+    file.writelines("This is \n new file")
+    file.seek(0)
+    y = file.read()
+    print(y)
+
+#Write a Python program that uses read() and readline() to read data from a file.
+
+#Objective:
+#To create a python program that uses read() and readline() to read data from a file.
+
+#Background:
+#read() method reads the entire content of the file as a single string
+#readlines() method reads all lines from the file and returns them as a list of strings
+#I’m using with open statement to open a mentioned file
+#With the help of read and readlines i’m getting the result.
+#With the help of print() function, I'm getting the result.
+
+#This problem helps beginners understand:
+#how to use read() in the file
+#how to use readlines() in the file
+
+#Solution:
+
+	with open('D:\\pythonfile.txt', 'r') as x:
+    y = x.read()
+    print(y)
+
+	with open('D:\\pythonfile.txt', 'r') as x:
+    y = x.readline()
+    print(y)
+
+#Write a Python program that reads multiple lines from a file using readlines() and prints each line.
+
+#Objective:
+#To create a python program that reads multiple lines from a file using readlines() and prints each line.
+
+#Background:
+#I’m using with open function to open a assigned file
+#using new variable y i’m reading the file
+#I’m getting the result with print() function
+
+#This problem helps beginners understand:
+#How to use readlines
+#How to print the result
+
+#Solution:
+
+	with open('D:\\pythonfile.txt', 'r') as x:
+    y = x.readlines()
+    print(y)
+
+
+#Write a Python program to close a file after performing read or write operations.
+
+#Objective:
+#To create a python program to close a file after performing read or write operations.
+
+#Background:
+#I’m using with close function to close the assigned file
+
+#This problem helps beginners understand:
+#how to close the file using close function
+#Solution:
+
+x = open('D:\\pythonfile.txt', 'r')
+y = x.readlines()
+print(y)
+x.close()
