@@ -1,0 +1,197 @@
+#Write a Python program to check whether a number is even or odd using if-else.
+
+#Objective:
+#To create a Python program to check whether a number is even or odd using if-else
+
+#Background:
+#I’m using input() function to get the value from user
+#And i’m writing a if statement with % and == operator
+#if the result is 0, it prints the first print() function statement 
+#else it’s prints the else print() function statement 
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use operators % and ==
+#how to use if-else statement
+
+#Solution:
+x = int(input("Enter a number: "))
+if x % 2 ==0:
+    print("This is an even number")
+else:
+    print("This is an odd number")
+
+
+#Write a Python program to check whether a person can drive based on their age.
+
+#Objective:
+#To create a python program to check whether a person can drive based on their age.
+
+#Background:
+#I’m using input() function to get the value from user
+#And i’m writing a if statement with >= operator
+#if the result is above 18, it prints the first print() function statement 
+#else it’s prints the else print() function statement 
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use operator >=
+#how to use if-else statement
+
+#Solution:
+x = int(input("Enter your age: "))
+if x >= 18:
+    print("Your eligible for license apply")
+else:
+    print("Your not eligible")
+
+
+#Write a Python program to categorize a number as positive, negative, or zero using if-else.
+
+#Objective:
+#To create a Python program to categorize a number as positive, negative, or zero using if-else.
+
+#Background:
+#I’m using input() function to get the value from user
+#And i’m writing a if statement with > operator
+#if the result is above 0, it prints the first print() function statement 
+#if it’s not pass the first condition, it checks next condition is it’s negative and if yes orint the statement
+#else it’s prints the else print() function statement 
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use operators <, >
+#how to use if-else statement
+#how to use elif statement
+
+#Solution:
+
+x = int(input("Enter a number: "))
+if x > 0:
+    print("This number is positive")
+elif x < 0:
+    print("This number is negative")
+else:
+    print("This is zero")
+
+#Write a Python program to check if a person is eligible for a loan based on their age and income.
+
+#Objective:
+#To create a python program to check if a person is eligible for a loan based on their age and income.
+
+#Background:
+#I’m using input() function to get the two values from user
+#And i’m writing a if statement with >= operator
+#if the result is between both the statement, it prints the first statement 
+#else it’s prints the else print() function statement 
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use operators >=
+#how to use if-else statement
+
+#Solution:
+x = int(input("Enter your age: "))
+y= int(input("Enter your income: "))
+
+if x >= 25 and y >= 10000:
+    print("Your eligible for loan")
+else:
+    print("Your not eligible for loan")
+
+
+#Write a Python program to check if a year is a leap year using if-elif-else.
+
+#Objective:
+#To create a python program to check if a year is a leap year using if-elif-else.
+
+#Background:
+#I’m using input() function to get the value from user
+#And i’m writing a if statement with % and == operator
+#if the result is 0, it prints the first print() function statement 
+#else it’s prints the else print() function statement 
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use operators % and ==
+#how to use if-else statement
+
+#Solution:
+
+x = int(input("Enter the year: "))
+if x % 4 == 0:
+    print("This is an leap year")
+else:
+    print("This is not an leap year")
+
+#Write a Python program to check if a number is divisible by 7 using if statements.
+#Objective:
+#To create a python program to check if a number is divisible by 7 using if statements.
+
+#Background:
+#I’m using input() function to get the number from user
+#And i’m writing a if statement with % and == operator
+#if the result is 0, it prints the first print() function statement 
+#else it’s prints the else print() function statement 
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use operators % and ==
+#how to use if-else statement
+
+#Solution:
+
+x = int(input("Enter a number: "))
+if x % 7 == 0:
+    print("This number divisible by 7")
+else:
+    print("This number can't divisible by 7")
+
+
+#Write a Python program to check whether a number is greater than 100 using if-else.
+
+#Objective:
+#To create a python program to check whether a number is greater than 100 using if-else.
+
+#Background:
+#I’m using input() function to get the number from user
+#And i’m writing a if statement with >= operator 
+#if the result is greater and equal to 100, it prints the first print() function statement 
+#else it’s prints the else print() function statement 
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use operators >=
+#how to use if-else statement
+
+#Solution:
+x = int(input("Enter a number: "))
+if x >= 100:
+    print("This number is greater than 100")
+else:
+    print("This number is not greater than 100")
+
+
+#Write a Python program to find the maximum of two numbers using if-else.
+
+#Objective:
+#To create a python program to find the maximum of two numbers using if-else.
+
+#Background:
+#I’m using input() function to get the two numbers from user
+#And i’m using max operator with new variable z
+#using print() function it prints the maximum value from the user input
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use max operators
+#how to assign new variable z
+#how to use print() function
+
+#Solution:
+
+x = int(input("Enter 1st number: "))
+y = int(input("Enter 2nd number: "))
+z = max(x, y)
+
+print(f"The maximum of {x} and {y} is: {z}")
