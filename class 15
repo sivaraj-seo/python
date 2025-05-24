@@ -1,0 +1,198 @@
+#Write a Python program that checks if a number is both positive and even using the and operator.
+
+#Objective:
+#To create a python program that checks if a number is both positive and even using the and operator.
+
+#Background:
+#I’m using input() function to get the values from user
+#Using >, % and == operator i’m validating the enter number is positive and even
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use  >, % and == operators
+#how to use print() function
+
+#Solution:
+
+x = int(input("Enter a number: "))
+if x > 0 and x % 2 == 0:
+    print("This number is positive and even")
+else:
+    print("This number is positive and odd")
+
+
+#Write a Python program that checks if a number is either greater than 50 or less than 20 using the or operator.
+
+#Objective:
+#To create a Python program that checks if a number is either greater than 50 or less than 20 using the or operator.
+
+#Background:
+#I’m using input() function to get the values from user
+#Using into if-else statement > and < operator i’m validating the enter number is greater than 50 or less than 20
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use  > and < operators
+#how to use print() function
+
+#Solution:
+
+x = int(input("Enter a number: "))
+if x < 20 or x > 50:
+    print("True")
+else:
+    print("False")
+
+#Write a Python program to check if a string is not equal to "Hello" using the not operator.
+
+#Objective:
+#To create a Python program to check if a string is not equal to "Hello" using the not operator.
+
+#Background:
+#I’m using input() function with assigning it as string
+#Using not statement and == operator in if-else statement i’m validating the entered value is equal or not
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use string in input() function
+#how to use == operator
+#how to use not statement
+#how to use print() function
+
+#Solution:
+
+x = str(input("Enter a word: "))
+if not x == "hello":
+    print("String is NOT equal to 'Hello'")
+else:
+    print("String is equal to 'Hello'")
+
+#Write a Python program to perform a bitwise XOR operation between 9 and 4 and print the result.
+
+#Objective:
+#To create a Python program to perform a bitwise XOR operation between 9 and 4 and print the result.
+
+#Background:
+#XOR operator in Python, denoted by the symbol ^, performs a binary XOR operation on the corresponding bits of two integers.
+#I’m assigning variables a,b
+#I’m assigning new variable c with the XOR operation
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use variables
+#how to use XOR operator
+#how to use print() function
+
+#Solution:
+a = 9
+b = 4
+c = (a ^ b)
+print(c)
+
+#Write a Python program that checks if the number is even and divisible by 3 using the bitwise AND (&) operator.
+
+#Objective:
+#To create a Python program that checks if the number is even and divisible by 3 using the bitwise AND (&) operator.
+
+#Background:
+#I’m using input() function to get value from user
+#Using % and == operator, In the statement I’m using Bitwise operator &
+#Using the above operators I’m calculating the user entered number is even and divisible by 3
+#I’m using if-else statement to perform this operation
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use % and == operator
+#how to use print() function
+
+#Solution:
+	
+x = int(input("Enter a number: "))
+if x % 2 ==0 & x % 3 == 0:
+    print("This number is even and divisible by 3")
+else:
+    print("This number is not even and divisible by 3")
+
+
+#Write a Python program that checks if a substring "code" is present in a string using the in operator.
+
+#Objective:
+#To create a Python program that checks if a substring "code" is present in a string using the in operator.
+
+#Background:
+#I’m using the input() function to get values from the user, I’m mentioning it as a string to ensure it’s text.
+#Using in statement in if statement I’m checking the value is present
+#I’m using if-else statement to perform this operation
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function to get string
+#how to use in statement
+#how to use if-else statement
+#how to use print() function
+
+#Solution:
+
+x = str(input("Enter a text: "))
+y = str(input("Enter a text to check: "))
+if y in x:
+    print("'TEXT' is present")
+else:
+    print("'TEXT' is not present")
+
+
+#Write a Python program to check if the value 5 is not in a list of integers using not in.
+
+#Objective:
+#To create a Python program to check if the value 5 is not in a list of integers using not in.
+
+#Background:
+#I’m using the input() function to get values from the user, I’m mentioning it as an integer.
+#Using NOT IN statement in if statement I’m checking the value is present
+#I’m using if-else statement to perform this operation
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function to get integer
+#how to use NOT IN statement
+#how to use if-else statement
+#how to use print() function
+
+#Solution:
+
+a = [1,2,3,4,5,6,7,8]
+if 5 not in a:
+    print("Number 5 is not in A")
+else:
+    print("Number 5 is in A")
+
+
+
+#Write a Python program that compares two dictionaries using the is operator.
+
+#Objective:
+#To create a Python program that compares two dictionaries using the is operator.
+
+#Background:
+#I have created 2 dictionaries a and b
+#Using IS statement I’m comparing 2 dictionaries in if-else statement
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use create a dictionary, how dictionary works
+#how to use IS statement
+#how to use if-else statement
+#how to use print() function
+
+#Solution:
+
+a = {"roll_no":"1","subject":"tamil","mark":"50"}
+b = {"roll_no":"1","subject":"tamil","mark":"50"}
+
+if a is b:
+    print("A and B are same")
+else:
+    print("A and B are not same")
