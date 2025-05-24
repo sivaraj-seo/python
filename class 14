@@ -1,0 +1,193 @@
+#Write a Python program to print "Welcome to Python" and stop the program using break statement.
+
+#Objective:
+#To create a python program to print "Welcome to Python" and stop the program using break statement.
+
+#Background:
+#I’m using break() function in this program with while
+#break keyword is used to break out a for loop, or a while loop.
+#while loop in Python is a control flow statement that repeatedly executes a block of code as long as a specified condition remains true.
+#using print() function i’m print the values
+
+#This problem helps beginners understand:
+#how to use break in while loop
+#how break keyword works
+#how to use print() function
+
+#Solution:	
+	while True:
+    print("Welcome to Python")
+    break
+
+
+#Write a Python program to print numbers from 1 to 10, but skip printing number 7 using the continue statement.
+
+#Objective:
+#To create a python program to print numbers from 1 to 10, but skip printing number 7 using the continue statement.
+
+#Background:
+#I’m using range() function in this program
+#range() function in Python generates a sequence of numbers
+#I’m using the continue statement. The continue statement is a control flow statement that skips the particular iteration of a loop and moves to the next iteration.  
+#using print() function i’m print the values
+
+#This problem helps beginners understand:
+#how to use range() in for loop 
+#how to use continue statement, how continue works
+#how to use print() function
+
+#Solution:	
+
+	for i in range(10):
+    if i == 7:
+        continue
+    print(i)
+
+
+#Write a Python program that does nothing (using pass) when a condition is met.
+
+#Objective:
+#To create a python program that does nothing (using pass) when a condition is met.
+
+#Background:
+#I’m using range() function in this program
+#range() function in Python generates a sequence of numbers
+#I’m using the pass statement. The pass statement is a null operation; when it is executed, nothing happens.
+#using print() function i’m print the values
+
+#This problem helps beginners understand:
+#how to use range() in for loop 
+#how to use pass statement, how pass statement works
+#how to use print() function
+
+#Solution:
+
+for i in range(10):
+    if i == 7:
+        pass
+    print(i)
+	
+#Write a Python program to print numbers from 1 to 5, then stop the loop once it reaches number 4 using break.
+
+#Objective:
+#To create a python program to print numbers from 1 to 5, then stop the loop once it reaches number 4 using break.
+
+#Background:
+#I’m using while function in this program
+#while loop in Python is a control flow statement that repeatedly executes a block of code as long as a specified condition remains true.
+#I’m assigning variables a value is 0
+#a += 1 is a shorthand way of writing a = a + 1. It's used to increment the value of the variable a by 1.
+#Using == operator i’m creating a condition with break I’m creating a condition to break the iteration. 
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use while function
+#how to use += and == operator with variable
+#how to use print() function
+
+#Solution:
+
+a = 0
+while a < 100:
+    a += 1
+    if a == 4:
+        break
+    print(a)
+
+
+#Write a Python program to calculate the division of two numbers using Arithmetic Operators (/).
+
+#Objective:
+#To create a python program to calculate the division of two numbers using Arithmetic Operators (/).
+
+#Background:
+#I’m using input() function to get the values from user
+#Using / operator I’m dividing the numbers
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use print() function
+#how to use / operator
+
+#Solution:
+
+x = int(input("Enter 1st number: "))
+y = int(input("Enter 2nd number: "))
+z = x / y
+
+print(f"{x} divided by {y} is: {z}")
+
+
+#Write a Python program that compares two numbers using Comparison Operators (>=) and prints a message if the first is greater than or equal to the second.
+
+#Objective:
+#To create a python program that compares two numbers using Comparison Operators (>=) and prints a message if the first is greater than or equal to the second.
+
+#Background:
+#I’m using input() function to get the values from user
+#Using >= operator in if-else statement to compare x and y
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use print() function
+#how to use >= operator
+#how to use if-else statement
+
+#Solution:
+
+x = int(input("Enter 1st number: "))
+y = int(input("Enter 2nd number: "))
+if x >= y:
+    print(f"X {x} greater than Y {y} ")
+else:
+    print(f"X {x} is not greater than Y {y} ")
+
+
+#Write a Python program to assign a value to a variable and increment it using the Assignment Operator (+=).
+
+#Objective:
+#To create a python program to assign a value to a variable and increment it using the Assignment Operator (+=).
+
+#Background:
+#I’m using input() function to get the values from user
+#a += 1 is a shorthand way of writing a = a + 1. It's used to increment the value of the variable a by 1.
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use += operator with variable
+#how to use print() function
+
+#Solution:
+
+x = int(input("Enter a number: "))
+x += 5
+print(x)
+
+
+#Write a Python program to perform basic arithmetic operations (addition, subtraction) on two numbers using Arithmetic Operators.
+
+#Objective:
+#To create a python program to perform basic arithmetic operations (addition, subtraction) on two numbers using Arithmetic Operators.
+
+#Background:
+#I’m using input() function to get the values from user
+#Using + and - operator i’m adding users entered value
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use + and - operator
+#how to use print() function
+
+#Solution:
+
+x = int(input("Enter 1st number: "))
+y = int(input("Enter 2nd number: "))
+a = x + y
+print(f"X {x} plus Y {y} id A {a}")
+b = x - y
+print(f"X {x} minus Y {y} is {b}")
+
