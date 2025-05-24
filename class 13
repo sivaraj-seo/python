@@ -1,0 +1,220 @@
+#Write a Python program to print numbers from 0 to 9 using a for loop.
+
+#Objective:
+#To create a python program to print numbers from 0 to 9 using a for loop.
+
+#Background:
+#I’m using range() function in this program
+#range() function in Python generates a sequence of numbers
+#using print() function i’m print the values
+
+#This problem helps beginners understand:
+#how to use range() function
+#how to use print() function
+
+#Solution:
+for i in range(3):
+    print(i) 
+
+#Write a Python program that uses a while loop to sum numbers from 1 to 100.
+
+#Objective:
+#To create a python program that uses a while loop to sum numbers from 1 to 100.
+
+#Background:
+#I’m using while function in this program
+#while loop in Python is a control flow statement that repeatedly executes a block of code as long as a specified condition remains true.
+#I’m assigning 2 variables a and i
+#Through while i’m assigning i less and equal to 100
+#I’m using an operator +=,  a += i is equivalent to a = a + i. It adds the value of i to the current value of a and then assigns the result back to a.
+#i += 1 is a shorthand way of writing i = i + 1. It's used to increment the value of the variable i by 1.
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use while function
+#how to use += operator with variable
+#how to use print() function
+
+#Solution:
+
+a = 0
+i = 1
+while i <= 100:
+    a += i  
+    i += 1
+
+print("The sum is:", a)
+
+
+#Write a Python program that uses a nested if to check if a number is positive, even, and divisible by 4.
+
+#Objective:
+#To create a python program that uses a nested if to check if a number is positive, even, and divisible by 4.
+
+#Background:
+#I’m using input() function to get the number from user
+#if the result is 0, it prints the first print() function statement 
+#I’m using multiple if statements to calculate the value
+#And i’m writing a if statement with > operator for 1st condition
+#And i’m writing a if statement with % and == operator for 2nd condition
+#And i’m writing a if statement with % and == operator for 3rd condition
+#I’m closing all the conditions with proper else statements
+#else it’s prints the else print() function statement 
+
+#This problem helps beginners understand:
+#how to use multiple if-else statement
+#how to use >, % and == operators
+#how to use print() function
+
+#Solution:
+
+x = int(input("Enter a number: "))
+if x > 0:
+    print("This is positive number")
+    if x % 2 ==0:
+        print("This number is even")
+        if x % 4 == 0:
+            print("This number is divisible by 4")
+        else:
+            print("This number is not divisible by 4")
+    else:
+        print("This number is odd")
+else:
+    print("This is negative number")
+
+
+#Write a Python program to use a while loop to print numbers greater than 10 but less than 20.
+#Objective:
+#To create a python program to use a while loop to print numbers greater than 10 but less than 20.
+
+#Background:
+#I’m using while function in this program
+#while loop in Python is a control flow statement that repeatedly executes a block of code as long as a specified condition remains true.
+#I’m assigning variable a is 20
+#Through while i’m assigning a less 20
+#I’m using an operator +=,  a += i is equivalent to a = a + i. It adds the value of i to the current value of a and then assigns the result back to a.
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use while function
+#how to use += operator with 1
+#how to add a number to variable
+#how to use print() function
+
+#Solution:
+	a = 10
+while a < 20:
+    a += 1
+    print(a)
+
+
+#Write a Python program to check if a number is both odd and divisible by 5 using nested if.
+
+#Objective:
+#To create a python program to check if a number is both odd and divisible by 5 using nested if.
+
+#Background:
+#I’m using input() function to get the number from user
+#if the result is not equal to, it prints the first print() function statement 
+#I’m using multiple if statements to calculate the value
+#And i’m writing a if statement with % and != operator for 1st condition
+#And i’m writing a if statement with % and == operator for 2nd condition
+#I’m closing all the conditions with proper else statements
+#else it’s prints the else print() function statement 
+
+#This problem helps beginners understand:
+#how to use multiple if-else statement
+#how to use %, != and == operators
+#how to use print() function
+
+#Solution:
+
+x = int(input("Enter a number: "))
+if x % 2 != 0 :
+    print("This number is odd")
+    if x % 5 ==0:
+        print("This number divisible by 5")
+    else:
+        print("This number not divisible by 5")
+else:
+    print("This number is even")
+	
+#Write a Python program to iterate over a list of integers and print all even numbers using a for loop.
+
+#Objective:
+#To create a python program to iterate over a list of integers and print all even numbers using a for loop.
+
+#Background:
+#I’m using for loop in this program
+#for loop is used for iterating over a sequence 
+#I’m assigning list
+#This loop iterates through each number (y) in the list x. This loop iterates through each number (y) in the list x.
+#If the number is even, it's printed.
+
+#This problem helps beginners understand:
+#how to use list
+#how to use for loop
+#how to use % and == operator
+#how to use print() function
+
+#Solution:
+
+x = [1, 2, 3, 4,5,6,7,8,9,10]
+for y in x:
+    if y % 2 == 0:
+        print(y)
+
+#Write a Python program to calculate the sum of all numbers from 1 to 50 using a while loop.
+
+#Objective:
+#To create a Python program to calculate the sum of all numbers from 1 to 50 using a while loop.
+
+#Background:
+#I’m using while function in this program
+#while loop in Python is a control flow statement that repeatedly executes a block of code as long as a specified condition remains true.
+#I’m assigning 2 variables a and i
+#Through while i’m assigning i less and equal to 50
+#I’m using an operator +=,  a += i is equivalent to a = a + i. It adds the value of i to the current value of a and then assigns the result back to a.
+#i += 1 is a shorthand way of writing i = i + 1. It's used to increment the value of the variable i by 1.
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use while function
+#how to use += operator with variable
+#how to use print() function
+
+#Solution:
+
+a = 0
+i = 1
+while i <= 50:
+    a += i
+    i += 1
+print(a)	
+
+#Write a Python program to use nested if inside a for loop to print numbers greater than 10 but less than 20.
+
+#Objective:
+#To create a python program to use nested if inside a for loop to print numbers greater than 10 but less than 20.
+
+#Background:
+#I’m using for loop function in this program
+#for loop is used for iterating over a sequence 
+#I’m assigning new variable a as x
+#Through if statement I’m using operators > and < to confirm the values in the list satisfies the condition
+#Once the iteration not satisfies it stops the process
+#Using print() function, I’m printing the results.
+
+#This problem helps beginners understand:
+#how to use for loop function
+#how to use > and < operators inside if-else statement
+#how to use print() function
+
+#Solution:
+x = [5,12,17,18,19.5,24,26]
+for a in x:
+    if a > 10:
+        if a < 20:
+            print(f"This number {a} is between 10 and 20")
+    else:
+        print("It's not")
