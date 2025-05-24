@@ -1,0 +1,193 @@
+#Write a function that takes two numbers and prints their difference.
+
+#Objective:
+#To create a Python program that takes two numbers and prints their difference.
+
+#Background:
+#I have created 2 input function() to get the value
+#Using - operator, I’m finding the difference of numbers
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use - operator
+#how to use print() function
+
+#Solution:
+
+x = int(input("Enter 1st number: "))
+y = int(input("Enter 2nd number: "))
+z = x - y
+
+print(z)
+
+
+#Write a function that returns the area of a rectangle given the length and width.
+
+#Objective:
+#To create a Python program that returns the area of a rectangle given the length and width.
+
+#Background:
+#I have created 2 input function() to get the values width and length
+#Formula for area of rectangle - A = ℓ × w
+#Using * operator, I’m multiplying x and y
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use * operator
+#how to use print() function
+
+#Solution:
+
+x = int(input("Enter width: "))
+y = int(input("Enter length: "))
+
+area = x * y
+
+print(f"Area of rectangle {area}")
+
+#Define a function that takes a string and returns it in uppercase.
+
+#Objective:
+#To create a Python program that takes a string and returns it in uppercase.
+
+#Background:
+#I have created input function() to get a string value
+#Using Upper() function i’m converting the variable x
+#Using new variable i’m converting the string into uppercase
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use upper()n function
+#how to assign new variable
+#how to use print() function
+
+#Solution:
+x = str(input("Enter string: "))
+y = x.upper()
+print (y)
+
+#Write a function that accepts a number and returns its square root.
+
+#Objective:
+#To create a Python program  that accepts a number and returns its square root.
+
+#Background:
+#I have created input function() to get a integer value
+#Using * operator, I’m multiplying x for soiree root
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use * operator for soiree root
+#how to use print() function
+
+#Solution:
+x = int(input("Enter number: "))
+y = x*x
+print (y)
+
+
+#Create a function with default parameters where the default value of a message is "Hello, World!".
+
+#Objective:
+#To create a Python program that accepts a number and returns its square root.
+
+#Background:
+#This defines a function named x.
+#It has one parameter, x, with a default value of "Hello, World!".
+#With the help of print() function, I’m mentioning it as x
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use print() function
+#how to print the default value
+
+#Solution:
+
+def x(message="Hello, World!"):
+    print(message)
+
+x()
+	
+
+#Write a Python program where a function checks if a number is divisible by 3.
+
+#Objective:
+#To create a Python program that checks if a number is divisible by 3.
+
+#Background:
+#I have created input function() to get a integer value
+#Using % and == operator, I’m confirming the entered number is divisible by 3
+#Using if-else statement i’m checking the values
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function
+#how to use % and == operator
+#how to use print() function
+
+#Solution:
+
+x = int(input("Enter number: "))
+
+if x % 3 == 0:
+    print(f"Your number {x} divided by 3")
+else:
+    print(f"Your number {x} is not divided by 3'")
+
+
+#Write a function that takes two numbers and returns the smaller of the two.
+
+#Objective:
+#To create a Python program that takes two numbers and returns the smaller of the two.
+
+#Background:
+#I have created input function() to get a two integer values
+#Using < operator in if-else statement, I’m confirming which number is minimum
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function to get integer value
+#how to use < operator
+#how to use print() function
+
+#Solution:
+
+x = int(input("Enter 1st number: "))
+y = int(input("Enter 2nd number: "))
+
+if x < y:
+    print(f"The minimum number your entered X {x}")
+else:
+    print(f"The minimum number your entered Y {y}")
+
+
+
+#Create a program where a function takes a number and prints "Even" or "Odd" depending on the input.
+
+#Objective:
+#To create a python program that checks the number and prints "Even" or "Odd" depending on the input.
+
+
+#Background:
+#I have created input function() to get a integer value
+#Using % and == operators in if-else statement, I’m confirming the number is even
+#With the help of print() function, I’m print the value
+
+#This problem helps beginners understand:
+#how to use input() function to get integer value
+#how to use % and == operator
+#how to use print() function
+
+#Solution:
+
+	x = int(input("Enter a number: "))
+
+if x % 2 == 0:
+    print(f"{x} is even number")
+else:
+    print(f"{x} is a odd number")
+
